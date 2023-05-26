@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="76.554859">
+<testcase classname="Amita location feature" name="Amita Location Test Scenario" time="10.475292">
+<system-out><![CDATA[Given User is already on Home page..........................................passed
+When title of the Home page is Healthcare|Acension..........................passed
+Then User clicks on location button.........................................passed
+Then user clicks on search box..............................................passed
+And enter location "Carol Stream, IL 60188" and clicks on physical therapy button.passed
+Then user clicks on desired location........................................passed
+Then user sees details of the location......................................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amita location feature" name="Amita Specialty Care Scenario" time="11.158605">
+<system-out><![CDATA[Given User is already on Home page..........................................passed
+When User clicks on Specialty Care link.....................................passed
+Then user clicks on Search for Specialty box and enters "post-acute care"...passed
+And user clicks on search button............................................passed
+And user scrolls down and clicks Find A Location............................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amita location feature" name="Amita Donation Scenario" time="17.842823">
+<system-out><![CDATA[Given User is already on Home page..........................................passed
+When User clicks on Donation link...........................................passed
+Then User clicks on Illinois box............................................passed
+Then User clicks Illinois Ascension Foundation And clicks on MAKE A GIFT....passed
+Then User clicks on other_box and enters "$50"..............................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amita location feature" name="Amita Career Scenario" time="21.162145">
+<system-out><![CDATA[Given user is already on Main page..........................................passed
+When user clicks on Careers link............................................passed
+Then user enters job_title and area_zip.....................................passed
+Then user clicks on Apply Now button........................................passed
+Then enters email "kav@abc.com".............................................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amita location feature" name="Amita pricetransparency Scenario" time="15.915994">
+<system-out><![CDATA[Given user is already on Homepage...........................................passed
+Then user clicks on pricetransparency link..................................passed
+Then user clicks on ESTIMATE MY PRICE.......................................passed
+Then user clicks on LABS and clicks on BLOOD................................passed
+Then user clicks on Routine lab testing.....................................passed
+Then user clicks on link and enters "60194".................................passed
+Then user selects insurance and plan and clicks search......................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
